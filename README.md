@@ -33,6 +33,17 @@ python -m pip install --upgrade pip
 pip install pandas pyodbc
 ```
 
+### Create a .env file
+In the `DB-pull` folder, create a file named `.env` with the following contents. Replace `replace_me` with your actual password.
+
+```bash
+DB_SERVER=msdatatest2022.cfs.uoguelph.ca
+DB_DATABASE=GFHS_PSDB
+DB_USERNAME=gfhsUser
+DB_PASSWORD=replace_me
+DB_DRIVER=ODBC Driver 17 for SQL Server
+```
+
 ## Running Script
 1) Activate the virtual environment
 
